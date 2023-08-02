@@ -5,7 +5,7 @@ import pymongo
 
 class Crawler():
     # connect to cloud mongo
-    uri = "mongodb+srv://deepak:deepakpanwar@cluster0.pwcyhe9.mongodb.net/search_engine?retryWrites=true&w=majority"
+    uri = "mongodb+srv://deepak:deepakpanwa<write MongoDB passwword>@cluster0.pwcyhe9.mongodb.net/search_engine?retryWrites=true&w=majority"
     
     client = pymongo.MongoClient(uri)
     
