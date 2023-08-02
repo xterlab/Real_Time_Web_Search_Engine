@@ -14,7 +14,7 @@ app = Flask(__name__)
 @app.route('/')
 def home():
     if 'search' in request.args:
-        connect_uri = "mongodb+srv://deepak:deepakpanwar@cluster0.pwcyhe9.mongodb.net/search_engine?retryWrites=true&w=majority"
+        connect_uri = "mongodb+srv://deepak:<write your own MongoDB password>@cluster0.pwcyhe9.mongodb.net/search_engine?retryWrites=true&w=majority"
         client = pymongo.MongoClient(connect_uri)
         
         # create db client
